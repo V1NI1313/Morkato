@@ -1,0 +1,10 @@
+{
+  "oauth2": {
+    "client_secret": "YIjUuj0Hk6-kks2oo4IBTcE4uJkeo-Fu",
+    "scope": ["identify", "email", "guilds"],
+    "response_type": "code",
+    "client_id": "972193913983103056",
+    "url": "https://discord.com/api/v6",
+    "redirect": "http://localhost:5500/api/auth"
+  }
+}

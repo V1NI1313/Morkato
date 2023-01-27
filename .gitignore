@@ -1,0 +1,8 @@
+.env
+
+./Backend/utils
+./Backend/src/utils.js
+./Backend/private/users.json
+
+__pycache__
+./Bot/discordapi
