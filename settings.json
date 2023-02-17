@@ -1,0 +1,41 @@
+{
+  "token": "...",
+  "url": "https://discord.com/api/v9",
+
+  "api": {
+    "access_token": "...",
+    
+    "exceptions": {
+      "body": { "status": 427, "message": "NotParams" },
+      "joiError": { "status": 426, "message": "ErrorParams" },
+      "notAccess": { "status": 401, "message": "Unauthorized" },
+      "botNotInGuild": { "status": 562, "message": "BotNotInGuild" }
+    },
+    "guilds": {
+      "arq": "/private/Guilds.json",
+
+      "exceptions": {
+        "notExists": { "status": 404, "message": "GuildNotExists" },
+        "alreadyExists": { "status": 403, "message": "GuildAlreadyExists" }
+      }
+    },
+    "respirations": {
+      "local": "/private/Respiration",
+      "form_local": "/private/Forms/Respiration",
+
+      "exceptions": {
+        "notExists": { "status": 404, "message": "RespirationNotExists" },
+        "alreadyExists": { "status": 403, "message": "RespirationAlreadyExists" }
+      }
+    },
+    "kekkijutsus": {
+      "local": "/private/Kekkijutsu",
+      "form_local": "/private/Forms/Kekkijutsu",
+      
+      "exceptions": {
+        "notExists": { "status": 404, "message": "KekkijutsuNotExists" },
+        "alreadyExists": { "status": 403, "message": "KekkijutsuAlreadyExists" }
+      }
+    }
+  }
+}
